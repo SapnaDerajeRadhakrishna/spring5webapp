@@ -23,7 +23,6 @@ public class Author {
 	private Set<Book> books = new HashSet<>();
 
 	public Author() {
-
 	}
 
 	public Author(String firstName, String lastName) {

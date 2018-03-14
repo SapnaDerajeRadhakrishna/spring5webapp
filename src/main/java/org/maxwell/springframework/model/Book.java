@@ -66,20 +66,20 @@ public class Book {
 		this.isbn = isbn;
 	}
 
-	public Publisher getPublishers() {
-		return publisher;
-	}
-
-	public void setPublishers(Publisher publishers) {
-		this.publisher = publishers;
-	}
-
 	public Set<Author> getAuthors() {
 		return authors;
 	}
 
 	public void setAuthors(Set<Author> authors) {
 		this.authors = authors;
+	}
+
+	public Publisher getPublisher() {
+		return publisher;
+	}
+
+	public void setPublisher(Publisher publisher) {
+		this.publisher = publisher;
 	}
 
 	public Long getId() {
