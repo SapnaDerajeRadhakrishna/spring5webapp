@@ -8,3 +8,6 @@ build/*
 gradle/*
 gradlew/*
 gradlew
+/.gradle/
+/build/
+.DS_Store
